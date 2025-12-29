@@ -188,7 +188,7 @@ export const TECHNOLOGIES = [
 // COMPANY INFO
 // ============================================
 export const COMPANY_INFO = {
-  name: 'CodeSupport',
+  name: 'ProjectHub',
   tagline: 'Focus on Learning. We Handle the Rest.',
   email: 'support@codesupport.com',
   supportHours: '24/7',

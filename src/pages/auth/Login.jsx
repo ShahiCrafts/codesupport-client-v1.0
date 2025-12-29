@@ -43,7 +43,7 @@ export default function Login() {
           <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-xl">&lt;/&gt;</span>
           </div>
-          <span className="text-2xl font-bold text-gray-900">CodeSupport</span>
+          <span className="text-2xl font-bold text-gray-900">ProjectHub</span>
         </Link>
 
         <h2 className="text-center text-3xl font-bold text-gray-900">

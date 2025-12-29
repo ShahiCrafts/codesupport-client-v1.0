@@ -132,7 +132,7 @@ export default function AdminLayout() {
                 <span className="text-white font-bold text-sm">&lt;/&gt;</span>
               </div>
               <div>
-                <span className="text-lg font-bold text-white">CodeSupport</span>
+                <span className="text-lg font-bold text-white">ProjectHub</span>
                 <p className="text-xs text-gray-500">Admin Panel</p>
               </div>
             </Link>

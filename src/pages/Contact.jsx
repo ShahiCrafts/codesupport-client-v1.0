@@ -64,7 +64,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="font-semibold text-white mb-1">Email</h3>
-              <p className="text-gray-500">support@codesupport.com</p>
+              <p className="text-gray-500">support@projecthub.com</p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/[0.05]">

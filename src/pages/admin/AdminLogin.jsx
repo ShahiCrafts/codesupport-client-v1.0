@@ -98,7 +98,7 @@ export default function AdminLogin() {
                   <span className="text-white font-bold text-lg">&lt;/&gt;</span>
                 </div>
                 <div>
-                  <span className="text-xl font-bold text-white block">CodeSupport</span>
+                  <span className="text-xl font-bold text-white block">ProjectHub</span>
                   <span className="text-xs text-zinc-500">Control Center</span>
                 </div>
               </Link>

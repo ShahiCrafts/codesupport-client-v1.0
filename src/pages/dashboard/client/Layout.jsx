@@ -66,7 +66,7 @@ function ClientLayoutContent() {
                                 <FaCode className="text-white text-sm" />
                             </div>
                             <div>
-                                <span className="text-lg font-semibold text-white tracking-tight">CodeSupport</span>
+                                <span className="text-lg font-semibold text-white tracking-tight">ProjectHub</span>
                                 <p className="text-[10px] text-zinc-500 -mt-1">Client Portal</p>
                             </div>
                         </Link>

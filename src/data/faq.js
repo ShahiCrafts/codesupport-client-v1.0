@@ -1,13 +1,13 @@
 export const faqs = [
   {
     id: 1,
-    question: 'How does CodeSupport work?',
-    answer: 'Simply submit your task with details and requirements, receive a quote, and once approved, our expert developers will complete your project. You\'ll receive regular updates and can request revisions until you\'re satisfied.',
+    question: 'How does ProjectHub work?',
+    answer: 'Simply submit your task with details and requirements, receive a quote, and once approved, our expert professionals will complete your project. You\'ll receive regular updates and can request revisions until you\'re satisfied.',
   },
   {
     id: 2,
     question: 'What types of projects do you handle?',
-    answer: 'We handle a wide range of coding projects including web development (React, Vue, Angular), backend development (Node.js, Python, Java), mobile apps, database design, API development, algorithms, and technical documentation.',
+    answer: 'We handle a wide range of academic projects across all domains including engineering projects, design assignments, business case studies, research papers, data analysis, coding projects, and more. Our experts cover various disciplines.',
   },
   {
     id: 3,

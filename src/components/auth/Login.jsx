@@ -39,7 +39,7 @@ export default function Login() {
             <div className="relative w-full max-w-md">
                 <div className="text-center mb-8">
                     <Link to="/" className="inline-flex items-center gap-3">
-                        <span className="text-x font-bold text-white">&lt;CodeSupport /&gt;</span>
+                        <span className="text-x font-bold text-white">&lt;ProjectHub /&gt;</span>
                     </Link>
                 </div>
 

@@ -72,7 +72,7 @@ export default function About() {
       <section className="bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            About CodeSupport
+            About ProjectHub
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're on a mission to help students succeed in their academic journey through professional coding support.
@@ -88,13 +88,13 @@ export default function About() {
           </div>
           <div className="prose prose-lg mx-auto text-gray-600">
             <p className="mb-6">
-              CodeSupport was founded with a simple yet powerful vision: to bridge the gap between ambitious students and the coding expertise they need to succeed.
+              ProjectHub was founded with a simple yet powerful vision: to bridge the gap between ambitious students and the academic expertise they need to succeed, regardless of their domain of study.
             </p>
             <p className="mb-6">
-              We understand the challenges students face - tight deadlines, complex assignments, and the pressure to perform. That's why we built a platform that connects students with experienced developers who can help bring their projects to life.
+              We understand the challenges students face - tight deadlines, complex assignments, and the pressure to perform. That's why we built a platform that connects students with experienced professionals who can help bring their projects to life across various domains including engineering, business, design, and more.
             </p>
             <p>
-              Today, we've helped hundreds of students achieve their academic goals through quality code and documentation services. Our team of expert developers is committed to delivering excellence on every project.
+              Today, we've helped hundreds of students achieve their academic goals through quality project delivery and documentation services. Our team of expert professionals is committed to delivering excellence on every project, regardless of discipline.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Team</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Meet the experts behind CodeSupport.
+              Meet the experts behind ProjectHub.
             </p>
           </div>
 
@@ -178,7 +178,7 @@ export default function About() {
             Ready to Experience the Difference?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Join hundreds of satisfied students who trust CodeSupport for their projects.
+            Join hundreds of satisfied students who trust ProjectHub for their projects.
           </p>
           <Button to={ROUTES.REGISTER} size="lg">
             Get Started Today

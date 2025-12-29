@@ -182,7 +182,7 @@ export default function DeveloperLayout() {
                                 <span className="text-white font-bold text-sm">&lt;/&gt;</span>
                             </div>
                             <div>
-                                <span className="text-lg font-bold text-white">CodeSupport</span>
+                                <span className="text-lg font-bold text-white">ProjectHub</span>
                                 <p className="text-xs text-gray-500">Developer Console</p>
                             </div>
                         </Link>
@@ -225,7 +225,7 @@ export default function DeveloperLayout() {
                     {/* Bottom section with version */}
                     <div className="p-4 border-t border-white/5">
                         <div className="px-4 py-2 text-xs text-gray-600">
-                            CodeSupport v1.0
+                            ProjectHub v1.0
                         </div>
                     </div>
                 </div>

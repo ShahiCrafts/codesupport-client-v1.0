@@ -290,7 +290,7 @@ export default function ClientPayment() {
                     <body>
                         <div class="receipt-container">
                             <div class="header">
-                                <div class="logo">CodeSupport</div>
+                                <div class="logo">ProjectHub</div>
                                 <div>Payment Receipt</div>
                                 <div class="receipt-id">#${receiptData.receiptId}</div>
                             </div>

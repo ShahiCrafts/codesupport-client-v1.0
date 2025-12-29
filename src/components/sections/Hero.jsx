@@ -30,18 +30,18 @@ export default function Hero() {
 
         {/* Heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-8">
-          <span className="text-white">We Build Your</span>
+          <span className="text-white">Expert Academic</span>
           <br />
           <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-purple-400 bg-clip-text text-transparent">
-            Code Projects
+            Project Help for All Domains
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Professional coding assistance for students.
+          Professional academic project assistance across engineering, business, design, coding, and more.
           <br className="hidden sm:block" />
-          Submit your requirements, we deliver excellence.
+          24/7 support from expert professionals.
         </p>
 
         {/* CTA Buttons */}

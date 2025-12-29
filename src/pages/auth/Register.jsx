@@ -81,7 +81,7 @@ export default function Register() {
                 Create Your Account
               </h1>
               <p className="text-lg text-zinc-400">
-                Join CodeSupport and get expert help with your assignments.
+                Join ProjectHub and get expert help with your assignments.
               </p>
             </div>
 

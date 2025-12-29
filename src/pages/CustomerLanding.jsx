@@ -157,12 +157,12 @@ export default function CustomerLanding() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight mb-6">
-              Professional Code Assistance for
-              <span className="text-transparent bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text"> Academic Excellence</span>
+              Expert Academic Project Help
+              <span className="text-transparent bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text"> for All Domains</span>
             </h1>
 
             <p className="text-lg text-zinc-400 leading-relaxed mb-10 max-w-2xl mx-auto">
-              Expert developers deliver high-quality, well-documented projects on time. Focus on learning while we handle the implementation.
+              Professional academic project assistance across engineering, business, design, coding, and more. 24/7 support from expert professionals.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
@@ -255,10 +255,10 @@ export default function CustomerLanding() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-2xl mb-16">
             <h2 className="text-3xl lg:text-4xl font-semibold text-white mb-4">
-              Why Choose CodeSupport
+              Why Choose ProjectHub
             </h2>
             <p className="text-zinc-400">
-              Built by developers, for students. We understand what it takes to deliver quality work.
+              Built by professionals, for students across all academic domains. We understand what it takes to deliver quality work.
             </p>
           </div>
 
@@ -397,10 +397,10 @@ export default function CustomerLanding() {
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
                   <FaCode className="text-white text-sm" />
                 </div>
-                <span className="text-lg font-semibold text-white tracking-tight">CodeSupport</span>
+                <span className="text-lg font-semibold text-white tracking-tight">ProjectHub</span>
               </Link>
               <p className="text-sm text-zinc-500 max-w-xs">
-                Professional code assistance for students. Quality work, on time, every time.
+                Professional academic assistance for students across all domains. Quality work, on time, every time.
               </p>
             </div>
 
@@ -434,7 +434,7 @@ export default function CustomerLanding() {
 
           <div className="pt-8 border-t border-zinc-800/50 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-zinc-600">
-              &copy; 2025 CodeSupport. All rights reserved.
+              &copy; 2025 ProjectHub. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="text-zinc-500 hover:text-zinc-300 transition-colors">

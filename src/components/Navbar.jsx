@@ -62,7 +62,7 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
               <FaCode className="text-white text-sm" />
             </div>
-            <span className="text-lg font-semibold text-white tracking-tight">CodeSupport</span>
+            <span className="text-lg font-semibold text-white tracking-tight">ProjectHub</span>
           </Link>
 
           {/* Center Nav Links */}
