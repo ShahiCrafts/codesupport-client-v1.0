@@ -1,0 +1,63 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Sarah Mitchell',
+    role: 'Computer Science Student',
+    university: 'Stanford University',
+    content: 'CodeSupport helped me understand complex algorithms through well-documented code. The quality exceeded my expectations and I learned so much from their implementation!',
+    rating: 5,
+    avatar: null,
+  },
+  {
+    id: 2,
+    name: 'James Rodriguez',
+    role: 'Software Engineering Student',
+    university: 'MIT',
+    content: 'Fast delivery and professional work. The documentation was thorough and helped me learn while meeting my tight deadline. Highly recommended!',
+    rating: 5,
+    avatar: null,
+  },
+  {
+    id: 3,
+    name: 'Emily Chen',
+    role: 'Data Science Student',
+    university: 'UC Berkeley',
+    content: 'Excellent service! They delivered a clean, well-structured project that I could easily understand and build upon. The code quality was impressive.',
+    rating: 5,
+    avatar: null,
+  },
+  {
+    id: 4,
+    name: 'Michael Thompson',
+    role: 'Web Development Student',
+    university: 'Georgia Tech',
+    content: 'The React project they built was exactly what I needed. Clean code, great documentation, and they even added helpful comments throughout.',
+    rating: 5,
+    avatar: null,
+  },
+  {
+    id: 5,
+    name: 'Aisha Patel',
+    role: 'Information Systems Student',
+    university: 'Carnegie Mellon',
+    content: 'Their technical documentation service saved my thesis. Professional, well-researched, and delivered ahead of schedule. Will definitely use again!',
+    rating: 5,
+    avatar: null,
+  },
+  {
+    id: 6,
+    name: 'David Kim',
+    role: 'Computer Engineering Student',
+    university: 'University of Washington',
+    content: 'I was struggling with my database project. CodeSupport not only completed it but explained the concepts so I could ace my exam. Amazing support!',
+    rating: 5,
+    avatar: null,
+  },
+];
+
+export const stats = [
+  { value: '500+', label: 'Projects Completed' },
+  { value: '98%', label: 'Satisfaction Rate' },
+  { value: '24/7', label: 'Support Available' },
+  { value: '50+', label: 'Expert Developers' },
+];
