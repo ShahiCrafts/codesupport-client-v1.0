@@ -75,7 +75,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <nav className="fixed top-11 left-0 right-0 z-50 border-b border-zinc-800/50 bg-[#09090b]/90 backdrop-blur-md">
+      <nav className="fixed top-10 left-0 right-0 z-50 border-b border-zinc-800/50 bg-[#09090b]/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
