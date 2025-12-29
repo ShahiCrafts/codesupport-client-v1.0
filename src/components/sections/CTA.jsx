@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useToast } from '../../context/ToastContext';
 
 export default function CTA() {
+  const { info } = useToast();
   return (
     <section className="py-32 bg-[#0a0a0f] relative overflow-hidden">
       {/* Background */}
@@ -16,15 +18,20 @@ export default function CTA() {
         <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
           Submit your project today and receive a quote within 24 hours. No commitment required.
         </p>
-        <Link
-          to="/submit-task"
-          className="inline-flex items-center gap-3 px-10 py-5 bg-white text-gray-900 rounded-2xl font-semibold text-lg hover:scale-105 hover:shadow-[0_20px_60px_-15px_rgba(255,255,255,0.3)] transition-all duration-300"
+        <button
+          onClick={() => info('Feature coming soon. Please check back later!')}
+          disabled
+          className="inline-flex items-center gap-3 px-10 py-5 bg-gray-400 opacity-50 text-gray-700 rounded-2xl font-semibold text-lg cursor-not-allowed relative group"
+          title="Coming Soon"
         >
           Submit Your Project
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
-        </Link>
+          <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-2 bg-gray-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+            Coming Soon
+          </span>
+        </button>
       </div>
     </section>
   );
