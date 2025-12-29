@@ -87,32 +87,32 @@ export default function CustomerLanding() {
   ];
 
   const stats = [
-    { value: '50,000+', label: 'Students Served' },
-    { value: '15,000+', label: 'Projects Delivered' },
-    { value: '96%', label: 'On-Time Rate' },
-    { value: '4.9/5', label: 'Client Rating' }
+    { value: '1000+', label: 'Students Served' },
+    { value: '2500+', label: 'Projects Completed' },
+    { value: '96%', label: 'Satisfaction Rate' },
+    { value: '4.9/5', label: 'Average Rating' }
   ];
 
   const testimonials = [
     {
-      quote: 'Exceptional quality and turnaround time. The documentation provided helped me understand the implementation thoroughly.',
+      quote: 'ProjectHub helped me understand complex algorithms through well-documented code. The quality exceeded my expectations and I learned so much from their implementation!',
       author: 'Priya Sharma',
-      role: 'Computer Science, Delhi University',
+      role: 'Computer Science, Tribhuvan University',
       avatar: 'PS',
       rating: 5
     },
     {
-      quote: 'Professional service from start to finish. The code was clean, well-commented, and exactly what I needed.',
-      author: 'Alex Kumar',
-      role: 'Software Engineering, IIT Bombay',
-      avatar: 'AK',
+      quote: 'Fast delivery and professional work. The documentation was thorough and helped me learn while meeting my tight deadline. Highly recommended!',
+      author: 'Rajesh Adhikari',
+      role: 'Software Engineering, Kathmandu University',
+      avatar: 'RA',
       rating: 5
     },
     {
-      quote: 'Reliable and efficient. They delivered a complex ML project ahead of schedule with excellent documentation.',
-      author: 'Maria Chen',
-      role: 'Data Science Graduate Student',
-      avatar: 'MC',
+      quote: 'Excellent service! They delivered a clean, well-structured project that I could easily understand and build upon. The code quality was impressive.',
+      author: 'Neha Gurung',
+      role: 'Data Science, Pokhara University',
+      avatar: 'NG',
       rating: 5
     }
   ];
@@ -153,7 +153,7 @@ export default function CustomerLanding() {
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-400 text-sm mb-8">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-              Trusted by 50,000+ students
+              Trusted by 1000+ students
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight mb-6">

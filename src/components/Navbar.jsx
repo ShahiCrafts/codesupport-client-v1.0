@@ -8,7 +8,8 @@ import {
   FaTimes,
   FaBell,
   FaSignOutAlt,
-  FaTh
+  FaTh,
+  FaBullhorn
 } from 'react-icons/fa';
 
 export default function Navbar() {
@@ -54,7 +55,27 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-zinc-800/50 bg-[#09090b]/90 backdrop-blur-md">
+    <>
+      {/* Feature Announcement Banner */}
+      <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-green-500 to-emerald-600 text-white py-2.5 px-4">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm">
+          <div className="flex items-center justify-center sm:justify-start gap-2.5">
+            <FaBullhorn className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
+            <span className="text-center sm:text-left">Currently available via WhatsApp only. Other features coming soon.</span>
+          </div>
+          <a 
+            href="https://wa.me/9779866291003?text=Hi!%20I%20need%20help%20with%20my%20assignment."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold hover:underline whitespace-nowrap"
+          >
+            Try Now →
+          </a>
+        </div>
+      </div>
+
+      {/* Main Navbar */}
+      <nav className="fixed top-11 left-0 right-0 z-50 border-b border-zinc-800/50 bg-[#09090b]/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -161,7 +182,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-zinc-800/50 bg-[#09090b] px-6 py-4">
+        <div className="md:hidden border-t border-zinc-800/50 bg-[#09090b] px-6 py-4 mt-11">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <a
@@ -177,5 +198,6 @@ export default function Navbar() {
         </div>
       )}
     </nav>
+    </>
   );
 }

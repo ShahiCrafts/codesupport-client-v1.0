@@ -25,7 +25,7 @@ export default function Hero() {
             <span className="text-emerald-400 text-sm font-medium">Available Now</span>
           </div>
           <div className="w-px h-4 bg-white/20" />
-          <span className="text-gray-400 text-sm">Trusted by 500+ students</span>
+          <span className="text-gray-400 text-sm">Trusted by 1000+ students</span>
         </div>
 
         {/* Heading */}
@@ -66,9 +66,9 @@ export default function Hero() {
         {/* Stats */}
         <div className="mt-16 pt-10 border-t border-white/10 grid grid-cols-3 gap-8 w-full max-w-xl">
           {[
-            { value: '500+', label: 'Projects Completed' },
-            { value: '98%', label: 'Satisfaction Rate' },
-            { value: '24hr', label: 'Avg Turnaround' },
+            { value: '1000+', label: 'Students Served' },
+            { value: '2500+', label: 'Projects Completed' },
+            { value: '4.9/5', label: 'Average Rating' },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-3xl sm:text-4xl font-bold text-white mb-1">{stat.value}</div>
