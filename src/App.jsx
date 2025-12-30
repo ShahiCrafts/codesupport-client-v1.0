@@ -105,7 +105,8 @@ function App() {
             </div>
           } />
 
-          {/* Admin Login (unprotected) */}
+          {/* Admin Login (unprotected) - must be before protected admin routes */}
+          <Route path="/admin" element={<AdminLogin />} />
           <Route path="/admin-login" element={<AdminLogin />} />
 
           {/* Shortcuts to dashboards */}
@@ -114,9 +115,9 @@ function App() {
           <Route path="/admin-dashboard" element={<Navigate to="/admin/dashboard" replace />} />
           <Route path="/profile" element={<Navigate to="/dashboard/client" replace />} />
 
-          {/* Protected Admin Routes */}
+          {/* Protected Admin Routes - nested under /admin/* */}
           <Route
-            path="/admin"
+            path="/admin/*"
             element={
               <ProtectedRoute roles={['admin']}>
                 <AdminLayout />
