@@ -10,7 +10,7 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/(?!.*\\..*|_next/static)",
       "destination": "/index.html"
     }
   ]
