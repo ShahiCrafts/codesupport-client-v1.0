@@ -188,18 +188,11 @@ export default function CustomerLanding() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
               <button
-                onClick={() =>
-                  info("Feature coming soon. Please check back later!")
-                }
-                disabled
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium text-white bg-gray-600 opacity-50 rounded-lg cursor-not-allowed transition-colors relative group"
-                title="Coming Soon"
+                onClick={handleGetHelp}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
               >
                 Get Help Now
                 <FaArrowRight className="text-xs" />
-                <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-2 bg-gray-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                  Coming Soon
-                </span>
               </button>
               <a
                 href="#how-it-works"

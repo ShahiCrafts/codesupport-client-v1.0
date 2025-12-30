@@ -164,15 +164,10 @@ export default function Navbar() {
               </div>
             ) : (
               <button
-                onClick={() => info('Login feature coming soon. Stay tuned!')}
-                disabled
-                className="px-4 py-2 text-sm font-medium text-white bg-gray-600 opacity-50 cursor-not-allowed rounded-lg transition-colors relative group"
-                title="Coming Soon"
+                onClick={() => navigate('/auth/login')}
+                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
               >
                 Login
-                <span className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 px-3 py-2 bg-gray-800 text-white text-xs rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                  Coming Soon
-                </span>
               </button>
             )}
 
