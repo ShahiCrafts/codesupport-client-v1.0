@@ -104,7 +104,9 @@ function App() {
               </div>
             </div>
           } />
-          <Route path="/admin" element={<AdminLogin />} />
+
+          {/* Admin Login (unprotected) */}
+          <Route path="/admin-login" element={<AdminLogin />} />
 
           {/* Shortcuts to dashboards */}
           <Route path="/customer-dashboard" element={<Navigate to="/dashboard/client" replace />} />
