@@ -10,8 +10,9 @@
   },
   "rewrites": [
     {
-      "source": "/(?!.*\\..*|_next/static)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "cleanUrls": true
 }
