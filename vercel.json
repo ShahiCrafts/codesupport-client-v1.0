@@ -8,14 +8,14 @@
     "VITE_GITHUB_CLIENT_ID": "@vite_github_client_id",
     "VITE_GITHUB_REDIRECT_URI": "@vite_github_redirect_uri"
   },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/assets/(.*)",
-      "destination": "/assets/$1"
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(?!.*\\.)",
+      "dest": "/index.html"
     }
   ]
 }
